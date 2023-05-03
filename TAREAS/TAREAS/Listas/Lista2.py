@@ -8,7 +8,8 @@ num_mayor=0
 num_menor=999
 mediana=0
 for i in range(tamaño):
-    num=(random.round()*100)
+    
+    num=(random.random()*100)
     lista.append(num)
     suma += num
     promedio= suma / tamaño
@@ -25,4 +26,5 @@ print(f"la suma de los numeros en la lista es {suma}")
 print(f"el pormedio de la suma de los numeros es {promedio}")
 print(f"el numero mayor generado en la lista es {num_mayor}")
 print(f"el numero menor generado en la lista es {num_menor}")
-print(f"la mediana de los numeros es {mediana}")
+print(f"la mediana de los numeros es {mediana} ")
+
