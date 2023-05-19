@@ -15,6 +15,6 @@ colores = ['rojo', 'azul', 'blanco', 'negro', 'amarillo', 'rosado', 'naranja', '
 for color in colores:
     if color in diccionario:
         print(color, "->", diccionario[color])
-    else:
+    else: 
         print(color, "no esta en el diccionario")
 
