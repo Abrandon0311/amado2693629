@@ -17,4 +17,11 @@ for color in colores:
         print(color, "->", diccionario[color])
     else: 
         print(color, "no esta en el diccionario")
+#PREGUNTAS
+#que es una lista multidimensional 
+#que es un parametro de una funcion y que papel desempeña
+#que hace la instruccion return 
 
+#CODIGO
+#ay partes del codigo las cuales no son funciones y ay otras que no tienen nada que ver con lista
+#con respecto a los diccionarios no hay funciones declaradas por la cual no se considera un modulo utilizable
