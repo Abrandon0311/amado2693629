@@ -27,7 +27,9 @@ class Persona:
         if curso in self.__curso:
             self.__curso.remove(curso)
         else:
-            print("Este curso no se encuentra en la lista")        
+            print("Este curso no se encuentra en la lista")       
+
+#clase es un nuevo tipo de dato 
 
        
 
