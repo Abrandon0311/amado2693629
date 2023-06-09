@@ -9,7 +9,7 @@ ob=user('juan',1301245)
 print(ob.getname())
 print(ob.getcode())
 
-obbook=account('juan',1301245,'libro','27/5/2023','27/6/2023','NO', 0.00)
+obbook=account('miguel',1301245,'libro','27/5/2023','27/6/2023','NO', 0.00)
 ob.agregarbooks(obbook)
 ob.accountbook()
 ob.accountbook()

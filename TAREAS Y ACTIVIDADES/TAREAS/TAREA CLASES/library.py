@@ -1,0 +1,15 @@
+class library: 
+    def __init__(self, id:int, titulo:str):
+        self.__id = id
+        self.__titulo = [titulo]
+
+    def setTitulo(self, titulo):
+        if titulo in self.__titulo:
+            x = input("Digita el nuevo titulo: ")
+            indexs = self.__titulo.index(titulo)
+            self.__titulo [indexs] = x 
+
+    def getTitulo(self):
+        return self.__titulo
+
+
